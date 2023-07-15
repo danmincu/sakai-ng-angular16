@@ -2,15 +2,19 @@
 
 Update to fix the tests
  -  ng update @angular/cli --from 14 --to 15 --migrate-only --allow-dirty
+
 Upgrade to Angular 16
 
+ng update
+
+```
    Name                                    Version                  Command to update
      -------------------------------------------------------------------------------------
       @angular-eslint/schematics              15.2.1 -> 16.1.0         ng update @angular-eslint/schematics
       @angular/cdk                            15.2.9 -> 16.1.5         ng update @angular/cdk
       @angular/cli                            15.2.9 -> 16.1.4         ng update @angular/cli
       @angular/core                           15.2.9 -> 16.1.5         ng update @angular/core
-
+```
 
  - ng update @angular-eslint/schematics  @angular/cdk @angular/cli @angular/core primeng --allow-dirty
  
