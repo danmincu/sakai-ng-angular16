@@ -1,6 +1,6 @@
 {
   "name": "sakai-ng",
-  "version": "15.0.0",
+  "version": "16.0.0.alpha-danmincu",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

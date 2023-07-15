@@ -1,3 +1,21 @@
+# danmincu's branch
+
+Update to fix the tests
+ -  ng update @angular/cli --from 14 --to 15 --migrate-only --allow-dirty
+Upgrade to Angular 16
+
+   Name                                    Version                  Command to update
+     -------------------------------------------------------------------------------------
+      @angular-eslint/schematics              15.2.1 -> 16.1.0         ng update @angular-eslint/schematics
+      @angular/cdk                            15.2.9 -> 16.1.5         ng update @angular/cdk
+      @angular/cli                            15.2.9 -> 16.1.4         ng update @angular/cli
+      @angular/core                           15.2.9 -> 16.1.5         ng update @angular/core
+
+
+ - ng update @angular-eslint/schematics  @angular/cdk @angular/cli @angular/core primeng --allow-dirty
+ 
+ Note: please note that an updated `primeng` was required, at the time of running the command "16.0.2" version was installed.
+
 # Sakai
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
